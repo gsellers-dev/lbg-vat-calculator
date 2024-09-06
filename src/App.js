@@ -8,7 +8,7 @@ function App() {
   const [netPrice, setNetPrice] = useState(0.0);
   const [grossPrice, setGrossPrice] = useState(0.0);
   const [vatToPay, setVatToPay] = useState(0.0);
-  const [vatRate, setVatRate] = useState(75.0);
+  const [vatRate, setVatRate] = useState(875.0);
 
   const handleNetPriceChange = (price) => {
     const gross_price = price * ((vatRate / 100) + 1);
