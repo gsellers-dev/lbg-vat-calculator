@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: lbgcalc
-          image: gsellersdev/vatcal:latest
+          image: docerid/image:latest
           imagePullPolicy: Always
           resources:
             requests:
